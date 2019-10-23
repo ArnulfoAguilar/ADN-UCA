@@ -217,9 +217,9 @@ jQuery(document).ready(function($) {
 	    onDragged: function(event) {
 	    	console.log('event : ',event.relatedTarget['_drag']['direction'])
 	    	if ( event.relatedTarget['_drag']['direction'] == 'left') {
-	    		$('.slide-one-item-alt-text').trigger('next.owl.carousel');
+	    		//$('.slide-one-item-alt-text').trigger('next.owl.carousel');
 	    	} else {
-	    		$('.slide-one-item-alt-text').trigger('prev.owl.carousel');
+	    		//$('.slide-one-item-alt-text').trigger('prev.owl.carousel');
 	    	}
 	    }
 	  });
